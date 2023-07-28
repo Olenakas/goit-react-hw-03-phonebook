@@ -1,0 +1,26 @@
+.list {
+   list-style-type: none;
+   padding: 0;
+   margin: 0;  
+}
+
+.list li {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-bottom: 30px;
+   font-size: 18px;  
+}
+
+.list button {
+   background-color: transparent;
+   border: 1px solid #212529;
+   padding: 5px 20px;
+   border-radius: 3px;
+   font-size: 16px;
+   cursor: pointer;
+}
+ .list button:is(:hover, :focus) {
+    background-color: #00171f;
+    color: #ffffff;
+ }
